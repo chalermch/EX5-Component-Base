@@ -16,7 +16,7 @@ public class ScoreSoure {
     public ScoreSoure() {
 	listeners = new ArrayList<>();
     }
-    public void setSourceLine(String val) {
+    public void setScoreLine(String val) {
 	fireScoreEvent(new ScoreEvent(this, val));
     }
     public void register(ScoreListener l) {

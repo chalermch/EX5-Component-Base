@@ -27,7 +27,7 @@ public class Main {
             System.out.print("Enter Score ");
             String score = sc.nextLine();
             if(score.equals(""))break;
-            soure.setSourceLine(score);
+            soure.setScoreLine(score);
         }
 
     }
